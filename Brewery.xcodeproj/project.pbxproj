@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		FB0412921A49BAB1008BA788 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0412911A49BAB1008BA788 /* main.m */; };
+		FB0412A91A49C464008BA788 /* CBCBrewDay.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0412A81A49C464008BA788 /* CBCBrewDay.m */; };
+		FB0412AF1A49C4FC008BA788 /* CBCBrewComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0412AE1A49C4FC008BA788 /* CBCBrewComponents.m */; };
+		FBA454CF1A49C55A003FCA13 /* CBCBrew.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA454CE1A49C55A003FCA13 /* CBCBrew.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		FB04128E1A49BAB1008BA788 /* Brewery */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Brewery; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0412911A49BAB1008BA788 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB0412A71A49C464008BA788 /* CBCBrewDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBCBrewDay.h; sourceTree = "<group>"; };
+		FB0412A81A49C464008BA788 /* CBCBrewDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBCBrewDay.m; sourceTree = "<group>"; };
+		FB0412AD1A49C4FC008BA788 /* CBCBrewComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBCBrewComponents.h; sourceTree = "<group>"; };
+		FB0412AE1A49C4FC008BA788 /* CBCBrewComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBCBrewComponents.m; sourceTree = "<group>"; };
+		FBA454CD1A49C55A003FCA13 /* CBCBrew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBCBrew.h; sourceTree = "<group>"; };
+		FBA454CE1A49C55A003FCA13 /* CBCBrew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBCBrew.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +66,12 @@
 		FB0412901A49BAB1008BA788 /* Brewery */ = {
 			isa = PBXGroup;
 			children = (
+				FBA454CD1A49C55A003FCA13 /* CBCBrew.h */,
+				FBA454CE1A49C55A003FCA13 /* CBCBrew.m */,
+				FB0412AD1A49C4FC008BA788 /* CBCBrewComponents.h */,
+				FB0412AE1A49C4FC008BA788 /* CBCBrewComponents.m */,
+				FB0412A71A49C464008BA788 /* CBCBrewDay.h */,
+				FB0412A81A49C464008BA788 /* CBCBrewDay.m */,
 				FB0412911A49BAB1008BA788 /* main.m */,
 			);
 			path = Brewery;
@@ -88,6 +103,7 @@
 		FB0412861A49BAB1008BA788 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CBC;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Sam Meadley";
 				TargetAttributes = {
@@ -118,6 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBA454CF1A49C55A003FCA13 /* CBCBrew.m in Sources */,
+				FB0412A91A49C464008BA788 /* CBCBrewDay.m in Sources */,
+				FB0412AF1A49C4FC008BA788 /* CBCBrewComponents.m in Sources */,
 				FB0412921A49BAB1008BA788 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +251,7 @@
 				FB0412971A49BAB1008BA788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

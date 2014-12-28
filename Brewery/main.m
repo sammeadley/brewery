@@ -8,10 +8,21 @@
 
 #import <Foundation/Foundation.h>
 
+#import "CBCBrew.h"
+#import "CBCBrewComponents.h"
+#import "CBCBrewDay.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+    CBCBrewDay *brewDay = [[CBCBrewDay alloc] initWithDate:[NSDate date]];
+    
+    CBCBrewComponents *brewComponents = [[CBCBrewComponents alloc] initWithIdentifier:@"Pale Ale"
+                                                                           hopVariety:@"Fuggles"
+                                                                          maltVariety:@"Maris Otter"
+                                                                          yeastStrain:@"WLP002"];
+    CBCBrew *brew = [brewDay brewFromComponents:brewComponents]; // Much better
+        
     }
     return 0;
 }
