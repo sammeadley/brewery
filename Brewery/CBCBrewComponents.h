@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
 @interface CBCBrewComponents : NSObject
 
 @property (copy, nonatomic) NSString *identifier;
@@ -23,3 +24,4 @@
 - (instancetype)init NS_UNAVAILABLE;
 
 @end
+NS_ASSUME_NONNULL_END
