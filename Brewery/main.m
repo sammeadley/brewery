@@ -15,14 +15,14 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-    CBCBrewDay *brewDay = [[CBCBrewDay alloc] initWithDate:[NSDate date]];
-    
-    CBCBrewComponents *brewComponents = [[CBCBrewComponents alloc] initWithIdentifier:@"Pale Ale"
-                                                                           hopVariety:@"Fuggles"
-                                                                          maltVariety:@"Maris Otter"
-                                                                          yeastStrain:@"WLP002"];
-    CBCBrew *brew = [brewDay brewFromComponents:brewComponents]; // Much better
+        CBCBrewDay *brewDay = [[CBCBrewDay alloc] initWithDate:[NSDate date]];
         
+        CBCBrewComponents *brewComponents = [[CBCBrewComponents alloc] initWithIdentifier:@"Pale Ale"
+                                                                               hopVariety:@"Fuggles"
+                                                                              maltVariety:@"Maris Otter"
+                                                                              yeastStrain:@"WLP002"];
+        CBCBrew *brew = [brewDay brewFromComponents:brewComponents];
+
     }
     return 0;
 }

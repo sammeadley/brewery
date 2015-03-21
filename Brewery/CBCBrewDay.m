@@ -10,7 +10,7 @@
 
 @interface CBCBrewDay ()
 
-@property (strong, nonatomic, readonly) NSDate *date;
+@property (copy, nonatomic, readonly) NSDate *date;
 
 @end
 
@@ -20,7 +20,7 @@
 {
     self = [super init];
     if (self) {
-        _date = date;
+        _date = [date copy];
     }
     
     return self;

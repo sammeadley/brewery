@@ -8,8 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "CBCBrew.h"
-#import "CBCBrewComponents.h"
+@class CBCBrew, CBCBrewComponents;
 
 @interface CBCBrewDay : NSObject
 
