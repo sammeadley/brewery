@@ -1,1 +1,1 @@
-Sample project for blog post [Better Brewing with `NS_UNAVAILABLE`.](http://craftbeercraftcode.wordpress.com/2014/12/28/better-brewing-with-ns_unavailable/)
+Sample project to support blog posts [Better Brewing with `NS_UNAVAILABLE`](http://craftbeercraftcode.wordpress.com/2014/12/28/better-brewing-with-ns_unavailable/) and  [Even Better Brewing with `nonnull`](http://craftbeercraftcode.wordpress.com/2015/04/09/even-better-brewing-with-nonnull/).
