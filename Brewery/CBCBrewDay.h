@@ -13,6 +13,7 @@
 @interface CBCBrewDay : NSObject
 
 - (instancetype)initWithDate:(NSDate *)date NS_DESIGNATED_INITIALIZER;
+- (instancetype)init NS_UNAVAILABLE;
 
 - (CBCBrew *)brewFromComponents:(CBCBrewComponents *)brewComponents;
 

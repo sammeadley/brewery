@@ -26,6 +26,12 @@
     return self;
 }
 
+- (instancetype)init
+{
+    [self doesNotRecognizeSelector:_cmd];
+    return nil;
+}
+
 - (CBCBrew *)brewFromComponents:(CBCBrewComponents *)brewComponents
 {
 #pragma message "Requires implementation."
