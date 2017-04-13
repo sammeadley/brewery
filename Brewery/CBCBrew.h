@@ -6,8 +6,12 @@
 //  Copyright (c) 2014 Sam Meadley. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
+
+NS_ASSUME_NONNULL_BEGIN
 
 @interface CBCBrew : NSObject
 
 @end
+
+NS_ASSUME_NONNULL_END

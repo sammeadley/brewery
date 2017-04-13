@@ -6,7 +6,9 @@
 //  Copyright (c) 2014 Sam Meadley. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
+
+NS_ASSUME_NONNULL_BEGIN
 
 @class CBCBrew, CBCBrewComponents;
 
@@ -18,3 +20,5 @@
 - (CBCBrew *)brewFromComponents:(CBCBrewComponents *)brewComponents;
 
 @end
+
+NS_ASSUME_NONNULL_END

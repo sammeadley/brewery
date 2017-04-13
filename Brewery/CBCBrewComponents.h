@@ -6,9 +6,10 @@
 //  Copyright (c) 2014 Sam Meadley. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 NS_ASSUME_NONNULL_BEGIN
+
 @interface CBCBrewComponents : NSObject
 
 @property (copy, nonatomic) NSString *identifier;
@@ -24,4 +25,5 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)init NS_UNAVAILABLE;
 
 @end
+
 NS_ASSUME_NONNULL_END

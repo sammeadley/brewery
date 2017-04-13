@@ -10,7 +10,7 @@
 
 @interface CBCBrewDay ()
 
-@property (copy, nonatomic, readonly) NSDate *date;
+@property (strong, nonatomic, readonly) NSDate *date;
 
 @end
 
@@ -20,16 +20,10 @@
 {
     self = [super init];
     if (self) {
-        _date = [date copy];
+        _date = date;
     }
     
     return self;
-}
-
-- (instancetype)init
-{
-    [self doesNotRecognizeSelector:_cmd];
-    return nil;
 }
 
 - (CBCBrew *)brewFromComponents:(CBCBrewComponents *)brewComponents
