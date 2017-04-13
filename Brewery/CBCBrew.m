@@ -10,4 +10,11 @@
 
 @implementation CBCBrew
 
+#pragma mark - NSObject
+
+- (NSString *)debugDescription
+{
+    return @"Mmmm, that's a tasty brew.";
+}
+
 @end

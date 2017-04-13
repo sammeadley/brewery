@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Sam Meadley. All rights reserved.
 //
 
+#import "CBCBrew.h"
 #import "CBCBrewDay.h"
 
 @interface CBCBrewDay ()
@@ -28,8 +29,7 @@
 
 - (CBCBrew *)brewFromComponents:(CBCBrewComponents *)brewComponents
 {
-#pragma message "Requires implementation."
-    return nil;
+    return [[CBCBrew alloc] init];
 }
 
 @end

@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CBCBrewComponents : NSObject
+@interface CBCBrewComponents : NSObject <NSSecureCoding>
 
 @property (copy, nonatomic) NSString *identifier;
 @property (copy, nonatomic) NSString *hopVariety;
